@@ -12,6 +12,23 @@ const resolvers = {
         genre: "Giáo Dục",
       },
     ],
+    authors: () => [
+      {
+        id: 1,
+        name: "Ngô Tất Tố",
+        age: 127,
+      },
+      {
+        id: 1,
+        name: "Ngô Tất Tố",
+        age: 127,
+      },
+      {
+        id: 1,
+        name: "Ngô Tất Tố",
+        age: 127,
+      },
+    ],
   },
 };
 

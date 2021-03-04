@@ -5,12 +5,12 @@ const { ApolloServer } = require("apollo-server-express");
 
 //Load schema and resolver
 const typeDefs = require("./schema/schema");
-const resolver = require("./resolver/resolver");
+const resolvers = require("./resolver/resolver");
 const PORT = process.env.PORT || 5000;
 
 const server = new ApolloServer({
   typeDefs,
-  resolver,
+  resolvers,
 });
 
 server.applyMiddleware({ app });
