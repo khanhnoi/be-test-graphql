@@ -14,7 +14,7 @@ $ npm i graphql
 ```
 
 ```bash
-# package.json
+# server.js
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
